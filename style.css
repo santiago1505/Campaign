@@ -176,3 +176,212 @@ section .section_1 div{
     color: rgb(237, 233, 13);
     font-size: 16px;
 }
+
+/*----- SECTION 4 -----*/
+.section_4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    position: relative;
+    bottom:  150px;
+    color: rgb(79, 78, 76);
+    
+}
+.section_4 h3{
+    font-size: 45px;
+}
+.section_4 p{
+    font-size: 18px;
+    margin-bottom:80px;
+}
+.com_4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    gap: 40px;
+    width: 80%;
+    
+}
+.com_4 img{
+    width: 20%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.5px solid rgb(195, 189, 189);
+    
+}
+/*----- SECTION 5 -----*/
+.section_5{
+    background-color: rgb(220, 184, 92);
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    bottom:  150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 80px;
+}
+.section_5 h3{
+    font-size: 45px;
+    margin: 20px 0px;
+}
+.com_5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 80%;
+    height: 1100px;
+    margin-top: 50px;
+}
+/*----- SECTION 6    -----*/
+.section_6{
+    background-image: url(img/sect_6_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    bottom:  150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(27, 27, 28);
+}
+.section_6 h3{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.section_6 p{
+    font-size: 18px;
+    width: 60%;
+    text-align: center;
+}
+.section_6 span{
+    font-weight: bold;
+    font-size: 30px;
+}
+/*----- section 7 -----*/
+.section_7{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom:  150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(75, 77, 79);
+
+}
+.section_7 h3{
+    font-size: 45px;
+}
+.com_7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    height: 300px;
+}
+.com_7 div{
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+}
+.com_7 div .com{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.com_7 div .com p{
+    font-size: 25px;
+    color: yellow;
+}
+.com_7 div .com span{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(69, 222, 49);
+}
+/*----- section 8 -----*/
+.section_8{
+    width: 100%;
+    height: 850px;
+    position: relative;
+    bottom:  150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(51, 53, 55);
+}
+.section_8 .com_8   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+    width: 80%;
+    margin-top: 30px;
+}
+.section_8 .com_8 form{
+    display: flex;
+    flex-direction: column;;
+    align-items: start;
+    font-size: 20px;
+}
+.section_8 .com_8 form input,textarea{
+    font-size: 20px;
+    width: 400px;
+    height: 30px;
+}
+.section_8 .com_8 form textarea{
+    height: 200px;
+}
+.section_8 .com_8 form button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(104, 242, 35);
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: end;
+}
+.section_8 .com_8 div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 20px;
+}
+
+.section_8 h3{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+/*----- FOOTER -----*/
+footer{
+    background-color: rgb(27, 27, 28);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+
+   
